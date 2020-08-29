@@ -4,14 +4,10 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amphineko/amphineko.git"
+    "url": "git+https://github.com/MoriKamiya/atomicneko_folk.git"
   },
   "author": "amphineko <sukareki@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/amphineko/amphineko/issues"
-  },
-  "homepage": "https://futa.moe/amphineko/",
   "scripts": {
     "build": "webpack -p",
     "start": "webpack-dev-server -d"
