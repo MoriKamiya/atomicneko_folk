@@ -3,7 +3,7 @@
     border-radius: 0.25em;
     box-shadow: 0 0 0.1em 0.1em rgba(0, 0, 0, 0.05);
     color: #fff;
-    margin-left: -0.35em;
+    margin-left: -0.2em;
     margin-right: -0.25em;
     padding: 0.2em 0.1em 0.2em 0.35em;
     transition-duration: 0.5s;
@@ -23,3 +23,14 @@
 .chem-element[data-element="neon"]:hover {
     background: #faa3a3;
 }
+
+.chem-element[data-element="nickel"]::before {
+    content: '28';
+    font-size: 0.45em;
+    vertical-align: -0.5em;
+}
+
+.chem-element[data-element="nickel"]:hover {
+    background: #68c2ff75;
+}
+
