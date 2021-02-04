@@ -34,3 +34,12 @@
     background: #68c2ff75;
 }
 
+.chem-element[data-element="Ruthenium"]::before {
+    content: '44';
+    font-size: 0.45em;
+    vertical-align: -0.5em;
+}
+
+.chem-element[data-element="Ruthenium"]:hover {
+    background: #68c2ff75;
+}
